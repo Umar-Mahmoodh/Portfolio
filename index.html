@@ -2,13 +2,18 @@
 <html lang="en">
   <head>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q80JLV0WKV"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Q80JLV0WKV"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-Q80JLV0WKV');
+      gtag("config", "G-Q80JLV0WKV");
     </script>
 
     <meta charset="utf-8" />
@@ -105,6 +110,9 @@
           ></span>
         </p>
         <div class="social-links">
+          <a href="https://www.behance.net/umar_mahmoodh" class="behance"
+            ><i class="bx bxl-behance"></i
+          ></a>
           <a
             href="https://www.instagram.com/umar_mahmoodh_/?hl=en"
             class="instagram"
@@ -112,9 +120,6 @@
           ></a>
           <a href="https://www.linkedin.com/in/umar-mahmoodh/" class="linkedin"
             ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a href="https://www.behance.net/umar_mahmoodh" class="behance"
-            ><i class="bx bxl-behance"></i
           ></a>
           <a href="https://medium.com/@umarmah213" class="medium"
             ><i class="bx bxl-medium"></i
@@ -174,8 +179,10 @@
               data-aos-delay="100"
             >
               <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-app">Case Studies</li>
+                <li data-filter="*">All</li>
+                <li data-filter=".filter-app" class="filter-active">
+                  Case Studies
+                </li>
                 <li data-filter=".filter-card">Projects</li>
                 <li data-filter=".filter-web">Articles</li>
               </ul>
@@ -187,27 +194,6 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <!-- Combank Digital -->
-            <div class="col-lg-12 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-wrap">
-                <img src="assets/img/image 5.png" class="img-fluid" alt="" />
-
-                <div class="portfolio-info">
-                  <h4>Combank Digital - Redesign</h4>
-                  <p>Banking App Redesign</p>
-                  <div class="portfolio-links">
-                    <a
-                      href="https://www.behance.net/gallery/127015473/Com-Bank-Digital-Mobile-App-Redesign"
-                      class="view-project"
-                      id="view-project"
-                      >View Project</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End Combank Digital -->
-
             <!-- Buslo App -->
             <div class="col-lg-12 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
@@ -229,17 +215,17 @@
             </div>
             <!-- End Buslo App -->
 
-            <!-- Cabbage Apps -->
-            <div class="col-lg-12 col-md-6 portfolio-item filter-card">
+            <!-- Combank Digital -->
+            <div class="col-lg-12 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <img src="assets/img/image 10.png" class="img-fluid" alt="" />
+                <img src="assets/img/image 5.png" class="img-fluid" alt="" />
 
                 <div class="portfolio-info">
-                  <h4>Cabbage Apps - Website Redesign</h4>
-                  <p>Tech Startup - Website Redesign</p>
+                  <h4>Combank Digital - Redesign</h4>
+                  <p>Banking App Redesign</p>
                   <div class="portfolio-links">
                     <a
-                      href="https://www.cabbageapps.com/"
+                      href="https://www.behance.net/gallery/127015473/Com-Bank-Digital-Mobile-App-Redesign"
                       class="view-project"
                       id="view-project"
                       >View Project</a
@@ -248,7 +234,7 @@
                 </div>
               </div>
             </div>
-            <!-- End Cabbage Apps -->
+            <!-- End Combank Digital -->
 
             <!-- Travel Box -->
             <div class="col-lg-12 col-md-6 portfolio-item filter-card">
@@ -272,6 +258,28 @@
               </div>
             </div>
             <!-- End Travel Box-->
+
+            <!-- Cabbage Apps -->
+            <div class="col-lg-12 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="assets/img/image 10.png" class="img-fluid" alt="" />
+
+                <div class="portfolio-info">
+                  <h4>Cabbage Apps - Website Redesign</h4>
+                  <p>Tech Startup - Website Redesign</p>
+                  <div class="portfolio-links">
+                    <a
+                      href="https://www.cabbageapps.com/"
+                      class="view-project"
+                      id="view-project"
+                      >View Project</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Cabbage Apps -->
+
             <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img
@@ -662,7 +670,7 @@
       <!-- End Resume Section -->
 
       <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials section-bg">
+      <!-- <section id="testimonials" class="testimonials section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>Testimonials</h2>
@@ -692,10 +700,10 @@
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
-              </div>
-              <!-- End testimonial item -->
+              </div> -->
+      <!-- End testimonial item -->
 
-              <div class="swiper-slide">
+      <!-- <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
                     src="assets/img/testimonials/testimonials-2.jpg"
@@ -713,10 +721,10 @@
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
-              </div>
-              <!-- End testimonial item -->
+              </div> -->
+      <!-- End testimonial item -->
 
-              <div class="swiper-slide">
+      <!-- <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
                     src="assets/img/testimonials/testimonials-3.jpg"
@@ -733,10 +741,10 @@
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
-              </div>
-              <!-- End testimonial item -->
+              </div> -->
+      <!-- End testimonial item -->
 
-              <div class="swiper-slide">
+      <!-- <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
                     src="assets/img/testimonials/testimonials-4.jpg"
@@ -754,10 +762,10 @@
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
-              </div>
-              <!-- End testimonial item -->
+              </div> -->
+      <!-- End testimonial item -->
 
-              <div class="swiper-slide">
+      <!-- <div class="swiper-slide">
                 <div class="testimonial-item">
                   <img
                     src="assets/img/testimonials/testimonials-5.jpg"
@@ -775,13 +783,13 @@
                     <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                   </p>
                 </div>
-              </div>
-              <!-- End testimonial item -->
-            </div>
+              </div> -->
+      <!-- End testimonial item -->
+      <!-- </div>
             <div class="swiper-pagination"></div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- End Testimonials Section -->
 
       <!-- ======= Contact Section ======= -->
@@ -884,17 +892,26 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
       <div class="container">
-        <h3>Umar Mahmoodh</h3>
+        <!-- <h3>Umar Mahmoodh</h3>
         <p>
           Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
           eligendi fuga maxime saepe commodi placeat.
-        </p>
+        </p> -->
         <div class="social-links">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://www.behance.net/umar_mahmoodh" class="behance"
+            ><i class="bx bxl-behance"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/umar_mahmoodh_/?hl=en"
+            class="instagram"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/umar-mahmoodh/" class="linkedin"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://medium.com/@umarmah213" class="medium"
+            ><i class="bx bxl-medium"></i
+          ></a>
         </div>
         <div class="copyright">
           &copy; Copyright <strong><span>@uidude</span></strong
